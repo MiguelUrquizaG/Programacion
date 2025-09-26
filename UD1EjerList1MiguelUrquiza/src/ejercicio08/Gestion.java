@@ -103,6 +103,8 @@ public class Gestion {
         this.descuentoPaquetes = descuentoPaquetes;
     }
 
+
+    //Este se debe mover a la clase POJO
     public double calcularPrecio() {
         double precioFinal = plataforma.getPrecio();
         if (plataforma.isPremium() && plataforma.getCantidadPersonas() > 3) {
@@ -125,6 +127,8 @@ public class Gestion {
     }
 
 
+    //Hacer método que se encargue de hacer descuentos.
+    //Pequeños mejor que grandes
     public double seleccionarServicio(double precio) {
 
 

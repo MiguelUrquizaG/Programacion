@@ -12,12 +12,14 @@ public class Principal {
         Gestion g = new Gestion(p,10,20,5,5,10);
 
 
+            //Pedir la cantidad de dispositivos que quiere
+
         do {
             if(contador>0){
                 System.out.println("¿Desea incorporar/eliminar algún paquete más?");
                 System.out.println("0.No");
                 System.out.println("1.Si");
-                opcion = sc.nextInt();
+                opcion =Integer.parseInt(sc.nextLine());
             }
             if(contador ==0 || opcion!=0){
                 System.out.println("Que paquete desea incorporar: ");

@@ -66,6 +66,7 @@ public class Dado {
             if(contador1>contador2){
                 contador2=contador1;
                 numRepetido=i;
+                contador1=0;
             }
 
         }

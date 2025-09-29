@@ -56,7 +56,7 @@ public class Dado {
         int contador1=0;
         int contador2=0;
 
-        for(int i = 1;i<7;i++){
+        for(int i = 1;i<listaNums.size()+1;i++){
 
             for (int a : listaNums){
                 if(a == i){
@@ -71,17 +71,17 @@ public class Dado {
                 for (int j =0;j<contador1;j++){
                     numRepetidos.add(i);
                 }
-                for (int a: numRepetidos){
-                    System.out.println("Prueba Insercion: "+a);
-                }
-                contador1=0;
+
+
             }else if(contador1 == contador2){
+
                 for (int j =0;j<contador1;j++){
                     numRepetidos.add(i);
+
                 }
 
             }
-
+            contador1=0;
         }
         return numRepetidos;
     }

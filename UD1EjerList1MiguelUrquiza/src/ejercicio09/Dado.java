@@ -49,8 +49,9 @@ public class Dado {
 
     }
 
-    public int buscarNumMasRepetido(List<Integer>listaNums){
+    public List<Integer> buscarNumMasRepetido(List<Integer>listaNums){
 
+        List<Integer> numRepetidos = new ArrayList<Integer>();
         int numRepetido=0;
         int contador1=0;
         int contador2=0;
@@ -64,13 +65,25 @@ public class Dado {
             }
 
             if(contador1>contador2){
+                numRepetidos.removeAll(numRepetidos);
+
                 contador2=contador1;
-                numRepetido=i;
+                for (int j =0;j<contador1;j++){
+                    numRepetidos.add(i);
+                }
+                for (int a: numRepetidos){
+                    System.out.println("Prueba Insercion: "+a);
+                }
                 contador1=0;
+            }else if(contador1 == contador2){
+                for (int j =0;j<contador1;j++){
+                    numRepetidos.add(i);
+                }
+
             }
 
         }
-        return numRepetido;
+        return numRepetidos;
     }
 
 }

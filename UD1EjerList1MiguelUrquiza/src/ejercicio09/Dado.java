@@ -84,13 +84,20 @@ public class Dado {
         }
 
 
-        /*for(int i=1;i<listaNums.size();i++){
-            if(numRepetidos.contains(i)){
-                listaRepetidos.add(i);
-            }
-        }*/
-
         return numRepetidos;
+    }
+
+    public List<Integer>filtrarRepetidos(List<Integer> listaRepetidos){
+        List<Integer>listaRepetidosFiltrada=new ArrayList<>();
+
+        for(int i=1;i<7;i++){
+            if(listaRepetidos.contains(i)){
+
+            listaRepetidosFiltrada.add(i);
+            }
+        }
+
+        return listaRepetidosFiltrada;
     }
 
 

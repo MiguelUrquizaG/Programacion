@@ -8,7 +8,7 @@ public class DadoCopia {
 
 
     //Usa Una lista como variable para almacenar los datos.
-
+/*
     public int lanzar(int max, int min){
         Random rnd =  new Random(System.nanoTime());
 
@@ -105,5 +105,5 @@ public class DadoCopia {
     //Primero crea dos variables y una lista de los que mas se repiten
     //Para saber el numero máximo de repeticiones
     //Para ello creamos un stream con la lista.mapToInt(n -> )
-
+ */
 }

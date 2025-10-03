@@ -62,7 +62,7 @@ public class Principal {
         System.out.println("La media es: "+d.mediaTodosNumeros(numeros));
 
         //CHAT GPT
-        /*
+
         List<List<Integer>>partidas=d.simularPartidas(3,10,6,1);
 
         int partidaNum = 1;
@@ -94,7 +94,7 @@ public class Principal {
             System.out.println("🌟 Número(s) más afortunado(s) global: " + nums +
                     " (" + freq + " veces)");
         });
-        */
+
 
     }
 }

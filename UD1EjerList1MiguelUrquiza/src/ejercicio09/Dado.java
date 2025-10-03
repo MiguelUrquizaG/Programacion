@@ -122,6 +122,8 @@ public class Dado {
                 return suma;
     }
 
+    //Cuando pueda distinguir un método lo hago lo mas generico posible para poder reutilizarlo.
+
     //PARTE CHAT GPT  --> Genereame dos métodos más elaborados y que introduzcan una mecánica interesante
     /*public List<String> simularPartidas(int numPartidas, int tiradasPorPartida, int max, int min) {
         List<String> resultados = new ArrayList<>();

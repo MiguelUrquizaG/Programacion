@@ -41,6 +41,7 @@ public class Cilindro extends Figura{
     @Override
     public double calcularArea() {
         return  2*Math.PI*radio*(altura+radio);
+        //AreaBase + AreaLateral
     }
 
     public void imprimirAreaCilindro(){

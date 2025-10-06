@@ -46,6 +46,7 @@ public class Cono extends Figura{
     public double calcularArea() {
         return Math.PI*radio*(calcularGeneratriz()+radio);
     }
+    //gen*pi*radio + pi*radio^2
 
     public double calcularGeneratriz(){
         double generatriz;

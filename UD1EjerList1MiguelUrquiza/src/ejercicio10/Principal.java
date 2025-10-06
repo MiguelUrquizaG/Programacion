@@ -1,5 +1,7 @@
 package ejercicio10;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Principal {
@@ -9,6 +11,18 @@ public class Principal {
 
         int opcion;
         Figura f;
+        List<Figura>listaFiguras =  new ArrayList<>();
+
+        Figura c =  new Cubo(1);
+        Figura esfera =  new Esfera(10);
+        Figura cono = new Cono(10,10);
+        Figura cilindro = new Cilindro(10,10);
+
+        listaFiguras.add(c);
+        listaFiguras.add(esfera);
+        listaFiguras.add(cono);
+        listaFiguras.add(cilindro);
+
         double radio, altura, lado;
         Scanner sc = new Scanner(System.in);
         System.out.println("Bienvenido al programa");
@@ -21,6 +35,7 @@ public class Principal {
             System.out.println("2. Cilindro");
             System.out.println("3. Esfera");
             System.out.println("4. Cono");
+            System.out.println("5. Calcular media áreas");
             System.out.println("Elige una");
 
             opcion = Integer.parseInt(sc.nextLine());
@@ -89,6 +104,9 @@ public class Principal {
                     ((Cono) f).imprimirVolumenCono();
                     break;
 
+                case 5:
+                    System.out.printf("La media de las áreas es --> %.2f\n",c.calcularMediaArea(listaFiguras));
+                    break;
                 default:
                     System.out.println("Valor no válido");
                     System.out.println("Redirigiendo a selección de figura...");

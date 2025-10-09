@@ -37,12 +37,12 @@ public class JefeProyecto extends Empleado{
 
     @Override
     public double calcularSueldo() {
-        double sueldo;
+        double sueldo = super.calcularSueldo();
         if(objetivo){
-            sueldo = super.calcularSueldo()+valorObjetivo;
-        }else{
-            sueldo = super.calcularSueldo();
+            sueldo += valorObjetivo;
         }
         return sueldo;
     }
+
+
 }

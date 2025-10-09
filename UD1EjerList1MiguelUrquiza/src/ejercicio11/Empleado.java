@@ -52,12 +52,13 @@ public class Empleado {
         double sueldo;
         double pagoExperienca3=50;
         double pagoExperienca5=125;
+        int semanasMes=4;
         if(anyosExperiencia>2 && anyosExperiencia<5){
-            sueldo = (valorHora*horasSemanales)+ pagoExperienca3;
+            sueldo = (valorHora*horasSemanales*semanasMes)+ pagoExperienca3;
         } else if (anyosExperiencia>5) {
-            sueldo = (valorHora*horasSemanales)+ pagoExperienca5;
+            sueldo = (valorHora*horasSemanales*semanasMes)+ pagoExperienca5;
         } else{
-            sueldo = valorHora*horasSemanales;
+            sueldo = valorHora*horasSemanales*semanasMes;
         }
         return sueldo;
     }

@@ -26,6 +26,17 @@ public class Analista extends Empleado{
 
     @Override
     public double calcularSueldo() {
-        return super.calcularSueldo()*bonusProyecto;
+        return calcularBonus(super.calcularSueldo());
     }
+
+    public double calcularBonus(double sueldo) {
+        double  base = 100;
+        double total;
+
+        total = sueldo + (sueldo * bonusProyecto/base);
+
+
+        return total;
+    }
+
 }

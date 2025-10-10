@@ -1,8 +1,6 @@
-package ejercicio11;
+package ejercicio11COPIA;
 
-import ejercicio11COPIA.Empleado;
-
-public class Programador extends Empleado {
+public class Programador extends Empleado{
 
     private double horasExtras;
     private double valorHorasExtra;

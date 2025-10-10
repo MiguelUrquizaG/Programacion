@@ -1,9 +1,4 @@
-package ejercicio11;
-
-import ejercicio11COPIA.Analista;
-import ejercicio11COPIA.Empleado;
-import ejercicio11COPIA.JefeProyecto;
-import ejercicio11COPIA.Programador;
+package ejercicio11COPIA;
 
 import java.util.Scanner;
 

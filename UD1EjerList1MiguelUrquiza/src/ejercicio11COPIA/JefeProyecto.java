@@ -1,8 +1,6 @@
-package ejercicio11;
+package ejercicio11COPIA;
 
-import ejercicio11COPIA.Empleado;
-
-public class JefeProyecto extends Empleado {
+public class JefeProyecto extends Empleado{
 
     private boolean objetivo;
     private double valorObjetivo;

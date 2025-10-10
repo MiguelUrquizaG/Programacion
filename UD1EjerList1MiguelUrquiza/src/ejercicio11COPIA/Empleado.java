@@ -1,4 +1,4 @@
-package ejercicio11;
+package ejercicio11COPIA;
 
 public class Empleado {
 
@@ -47,7 +47,6 @@ public class Empleado {
                 ", horasSemanales=" + horasSemanales +
                 '}';
     }
-
 
     public double calcularSueldo(){
         double sueldo;

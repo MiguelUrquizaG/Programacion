@@ -5,51 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6a3c6f-8cd1-4876-a91c-7918e53f28ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UD1EjerList1MiguelUrquiza.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio01/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio01extra/Apartamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio01extra/GestionHabitaciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio01extra/Habitacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio01extra/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio01extra/Suite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio02/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio02Extra/EspadaLaser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio02Extra/Moviles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio02Extra/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio02Extra/Producto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio02Extra/Ventas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio03Extra/Gato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio03Extra/Mascota.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio03Extra/Perro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio03Extra/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio03Extra/TiendaMascotas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio08/Gestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio08/Plataforma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio08/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio09/Dado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio09/DadoCopia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio09/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio10/Cilindro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio10/Cono.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio10/Cubo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio10/Esfera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio10/Figura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio10/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11/Analista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11/JefeProyecto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11/Programador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11COPIA/Analista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11COPIA/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11COPIA/JefeProyecto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11COPIA/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejercicio11COPIA/Programador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD01/UD1EjerList1MiguelUrquiza/src/ejercicio11/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD01/UD1EjerList1MiguelUrquiza/src/ejercicio11/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Principal.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/Programacion/UD1EjerList1MiguelUrquiza",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alumno/Documents/Programacion/UD1EjerList1MiguelUrquiza&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7e6a3c6f-8cd1-4876-a91c-7918e53f28ce" name="Changes" comment="" />

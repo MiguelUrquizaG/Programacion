@@ -1,8 +1,9 @@
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class GestionProducto {
-    Set<Producto>productosSet = new HashSet<>();
+    Set<Producto>productosSet = new TreeSet<>();
 
 
     public Producto create(Producto producto){
@@ -13,17 +14,32 @@ public class GestionProducto {
 
     }
 
-    public Producto deleteById(Long id){
+    public boolean deleteById(Long id){
 
+        Producto p = findById(id);
+        return  productosSet.remove(p);
     }
 
-    public Producto findById(Producto producto){
+    public Producto findById(Long id){
 
-        if(productosSet.contains(producto){
-
+        for(Producto p: productosSet){
+            if(p.getId() == id){
+                return p;
+            }
         }
 
         return null;
+    }
+
+    public Producto edit(Long id,Producto p){
+
+        Producto producto = findById(id);
+
+        producto.setNombre(p.getNombre());
+        producto.setCantidad(p.getCantidad());
+
+        return producto;
+
     }
 
 }

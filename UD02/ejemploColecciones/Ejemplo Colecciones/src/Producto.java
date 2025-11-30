@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Producto {
+public class Producto implements Comparable<Producto>{
 
     private Long id;
     private String nombre;
@@ -55,5 +55,10 @@ public class Producto {
                 ", nombre='" + nombre + '\'' +
                 ", cantidad=" + cantidad +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Producto o) {
+        return this.id.compareTo(o.id);
     }
 }

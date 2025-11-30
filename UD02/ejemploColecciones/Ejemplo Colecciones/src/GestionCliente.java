@@ -5,11 +5,13 @@ public class GestionCliente {
 
     Set<Cliente> clienteSet = new HashSet<>();
 
+    public GestionCliente(Set<Cliente> clienteSet) {
+        this.clienteSet = clienteSet;
+    }
 
-    public Cliente save (Cliente cliente){
+    public void save (Cliente cliente){
         clienteSet.add(cliente);
 
-        return cliente;
     }
 
     public Cliente find(Long id){
@@ -31,5 +33,23 @@ public class GestionCliente {
 
     }
 
+    public long contarClientesMayores18(){
+        int max=18;
+        return clienteSet.stream().filter(cliente -> cliente.getEdad()>max).count();
+    }
+
+    public Set<Cliente> comprobarSiContieneLetra (String letra){
+
+        Set<Cliente>resp=new HashSet<>();
+
+        clienteSet.forEach(cliente -> {
+            if(cliente.getNombre().toLowerCase().contains(letra.toLowerCase())){
+                resp.add(cliente);
+            }
+        });
+
+        return resp;
+
+    }
 
 }

@@ -46,4 +46,13 @@ public class Cliente {
     public int hashCode() {
         return Objects.hash(id, nombre, edad);
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }

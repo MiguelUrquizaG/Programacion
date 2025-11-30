@@ -5,6 +5,9 @@ import java.util.TreeSet;
 public class GestionProducto {
     Set<Producto>productosSet = new TreeSet<>();
 
+    public GestionProducto(Set<Producto> productosSet) {
+        this.productosSet = productosSet;
+    }
 
     public Producto create(Producto producto){
 
@@ -40,6 +43,22 @@ public class GestionProducto {
 
         return producto;
 
+    }
+
+    public Producto obtenerSiguiente(Producto producto){
+        if(productosSet instanceof TreeSet<Producto>){
+            return ((TreeSet<Producto>) productosSet).higher(producto);
+        }
+
+        return null;
+    }
+
+    public Set<Producto> obtenerProductosRango(Producto p1, Producto p2){
+        if(productosSet instanceof TreeSet<Producto>){
+            return ((TreeSet<Producto>) productosSet).subSet(p1,p2);
+        }
+
+        return null;
     }
 
 }

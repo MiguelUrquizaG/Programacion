@@ -1,3 +1,5 @@
+package Set;
+
 import java.util.Objects;
 
 public class Cliente {
@@ -49,7 +51,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "Set.Cliente{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", edad=" + edad +

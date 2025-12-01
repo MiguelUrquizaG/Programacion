@@ -1,3 +1,5 @@
+package Set;
+
 import java.util.Objects;
 
 public class Producto implements Comparable<Producto>{
@@ -50,7 +52,7 @@ public class Producto implements Comparable<Producto>{
 
     @Override
     public String toString() {
-        return "Producto{" +
+        return "Set.Producto{" +
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", cantidad=" + cantidad +

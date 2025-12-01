@@ -1,6 +1,11 @@
-import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
+import Set.Producto;
+import Set.Cliente;
+import Set.GestionProducto;
+import Set.GestionCliente;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -8,17 +13,17 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-        Cliente c = new Cliente("Miguel",29);
+        Set.Cliente c = new Set.Cliente("Miguel",29);
 
-        Set<Cliente> setCliente = new HashSet();
+        Set<Set.Cliente> setCliente = new HashSet();
 
-        GestionCliente gc = new GestionCliente(setCliente);
+        Set.GestionCliente gc = new Set.GestionCliente(setCliente);
 
         gc.save(c);
 
         System.out.println(gc.contarClientesMayores18());
 
-       for(Cliente cliente : gc.comprobarSiContieneLetra("m")){
+       for(Set.Cliente cliente : gc.comprobarSiContieneLetra("m")){
            System.out.println(cliente.toString());
        }
        */
@@ -44,6 +49,22 @@ public class Main {
         for(Producto producto : gc.obtenerProductosRango(p,p4)){
             System.out.println(producto.toString());
         }
+
+
+        Pais pais1 = new Pais("Espana","Madrid");
+        Pais pais2 = new Pais("Francia","París");
+        Pais pais3 = new Pais("Italia","Roma");
+
+        Map<String,Pais> map = new HashMap<>();
+        GestionPais gestionPais = new GestionPais(map);
+
+        gestionPais.addPais(pais1);
+        gestionPais.addPais(pais2);
+        gestionPais.addPais(pais3);
+
+        System.out.println(gestionPais.calcularSumaNombresPaises());
+
+
 
     }
 

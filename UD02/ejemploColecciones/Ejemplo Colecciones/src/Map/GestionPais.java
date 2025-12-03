@@ -1,4 +1,4 @@
-import Set.Producto;
+package Map;
 
 import java.util.*;
 
@@ -40,27 +40,27 @@ public class GestionPais {
     }
 
     public int calcularSumaNombresPaises(){
-        List<Pais> values = (List<Pais>) paisMap.values();
+        Collection<Pais> values =  paisMap.values();
         int suma=0;
 
         for (Pais pais : values){
-            suma += pais.getNombre().length();
+            suma += pais.getCapital().length();
         }
 
         return suma;
     }
 
-    public List<String> prueba (String letra){
+    public boolean acertarPais (String pais){
         Set<String> set = paisMap.keySet();
-        List<String> listaLetras = new ArrayList<>();
+        boolean isGanado=false;
 
-        set.forEach(nombre ->{
-            if(nombre.contains(letra)){
-                listaLetras.add(nombre);
+        for(String nombre : set){
+            if(nombre.equalsIgnoreCase(pais)){
+                return isGanado=true;
             }
-        });
+        }
 
-        return listaLetras;
+        return isGanado;
     }
 
 }

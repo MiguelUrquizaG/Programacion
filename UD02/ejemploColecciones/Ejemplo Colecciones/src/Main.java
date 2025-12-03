@@ -1,34 +1,27 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
-import Set.Producto;
-import Set.Cliente;
-import Set.GestionProducto;
-import Set.GestionCliente;
+import java.util.*;
+import Map.Pais;
+import Map.GestionPais;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 
-        /*
-        Set.Cliente c = new Set.Cliente("Miguel",29);
+       /* Cliente c = new Cliente("Miguel",29);
+        Cliente c2 = new Cliente("Pepe",10);
 
-        Set<Set.Cliente> setCliente = new HashSet();
+        Set<Cliente> setCliente = new HashSet();
 
-        Set.GestionCliente gc = new Set.GestionCliente(setCliente);
+        GestionCliente gc = new GestionCliente(setCliente);
 
         gc.save(c);
 
-        System.out.println(gc.contarClientesMayores18());
+        System.out.println(gc.calcularGanador(c2));
 
-       for(Set.Cliente cliente : gc.comprobarSiContieneLetra("m")){
+       for(Cliente cliente : gc.comprobarSiContieneLetra("m")){
            System.out.println(cliente.toString());
-       }
-       */
+       }*/
 
-        Producto p = new Producto(1L,"Pan",4);
+      /*  Producto p = new Producto(1L,"Pan",4);
         Producto p2 =  new Producto(2L,"Zanahoria",3);
         Producto p3 = new Producto(3L,"Papa",3);
         Producto p4 = new Producto(4L,"Migas",1);
@@ -50,12 +43,12 @@ public class Main {
             System.out.println(producto.toString());
         }
 
-
+*//*
         Pais pais1 = new Pais("Espana","Madrid");
         Pais pais2 = new Pais("Francia","París");
         Pais pais3 = new Pais("Italia","Roma");
 
-        Map<String,Pais> map = new HashMap<>();
+        Map<String, Pais> map = new HashMap<>();
         GestionPais gestionPais = new GestionPais(map);
 
         gestionPais.addPais(pais1);
@@ -63,7 +56,23 @@ public class Main {
         gestionPais.addPais(pais3);
 
         System.out.println(gestionPais.calcularSumaNombresPaises());
+        System.out.println(gestionPais.acertarPais("P"));
 
+*/
+        Palabra p = new Palabra("Pies","Parte del cuerpo");
+        Palabra p2 = new Palabra("Mesa","Mueble para apoyar cosas");
+        Palabra p3 = new Palabra("Cuadro","Lugar donde se ponen las fotos.");
+
+        Map map = new LinkedHashMap();
+
+        ServicioPalabra sp = new ServicioPalabra(map);
+
+        sp.add(p);
+        sp.add(p2);
+        sp.add(p3);
+
+
+        System.out.println(sp.mostrarPalabraDelDia());
 
 
     }

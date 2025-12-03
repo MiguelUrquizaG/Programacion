@@ -1,3 +1,5 @@
+package Map;
+
 import java.util.Objects;
 
 public class Pais {
@@ -39,7 +41,7 @@ public class Pais {
 
     @Override
     public String toString() {
-        return "Pais{" +
+        return "Map.Pais{" +
                 "nombre='" + nombre + '\'' +
                 ", capital='" + capital + '\'' +
                 '}';

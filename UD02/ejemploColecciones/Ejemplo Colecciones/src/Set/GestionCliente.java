@@ -35,9 +35,15 @@ public class GestionCliente {
 
     }
 
-    public long contarClientesMayores18(){
-        int max=18;
-        return clienteSet.stream().filter(cliente -> cliente.getEdad()>max).count();
+    public int agarrarPapeleta(Cliente cliente){
+        int numAleatorio=-1;
+        int max =10;
+        int min =0;
+        if(!clienteSet.contains(cliente)){
+            numAleatorio =(int)(Math.random()*11);
+            save(cliente);
+        }
+        return numAleatorio;
     }
 
     public Set<Cliente> comprobarSiContieneLetra (String letra){
@@ -52,6 +58,20 @@ public class GestionCliente {
 
         return resp;
 
+    }
+
+    public boolean calcularGanador(Cliente cliente){
+        int  numGanador = 1;
+        boolean isGanador=false;
+
+        int numPapeleta = agarrarPapeleta(cliente);
+
+        if(numPapeleta == numGanador){
+            isGanador=true;
+        }
+        System.out.println("Num Papeleta: " + numPapeleta);
+        System.out.println("Num Ganador: " + numGanador);
+        return isGanador;
     }
 
 }

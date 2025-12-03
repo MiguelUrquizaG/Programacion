@@ -10,11 +10,9 @@ public class GestionProducto {
         this.productosSet = productosSet;
     }
 
-    public Producto create(Producto producto){
+    public void create(Producto producto){
 
         productosSet.add(producto);
-
-        return producto;
 
     }
 

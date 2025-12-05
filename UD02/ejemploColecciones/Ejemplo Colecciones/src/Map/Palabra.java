@@ -1,3 +1,5 @@
+package Map;
+
 import java.util.Objects;
 
 public class Palabra {
@@ -40,7 +42,7 @@ public class Palabra {
 
     @Override
     public String toString() {
-        return "Palabra{" +
+        return "Map.Palabra{" +
                 "palabra='" + palabra + '\'' +
                 ", definicion='" + definicion + '\'' +
                 '}';

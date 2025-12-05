@@ -28,6 +28,13 @@ public class GestionCliente {
 
     }
 
+    public void edit(Cliente c,Long id){
+        Cliente clienteBase = find(id);
+
+        clienteBase.setNombre(c.getNombre());
+        clienteBase.setEdad(c.getEdad());
+    }
+
     public boolean delete (Long id){
         Cliente cliente = find(id);
 

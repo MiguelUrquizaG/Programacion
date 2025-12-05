@@ -1,7 +1,7 @@
 import java.util.*;
-import Map.Pais;
-import Map.GestionPais;
 
+import Map.Palabra;
+import Map.ServicioPalabra;
 
 public class Main {
     public static void main(String[] args) {

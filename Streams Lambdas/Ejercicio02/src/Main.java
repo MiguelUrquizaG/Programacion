@@ -16,5 +16,16 @@ public class Main {
 
         System.out.println(servicio.crearPalabra());
 
+        servicio.borrarPalabrasImpares();
+        System.out.println(servicio.getListCadena());
+
+        servicio.pasarPalabrasMayuscula();
+        System.out.println(servicio.getListCadena());
+
+        System.out.println(servicio.buscarCadena("Miguel3"));
+        System.out.println(servicio.mostrarPalabraContieneNumeros("Miguel"));
+
+
+
     }
 }

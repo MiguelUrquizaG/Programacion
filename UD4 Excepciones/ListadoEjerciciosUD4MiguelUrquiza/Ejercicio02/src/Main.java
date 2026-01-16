@@ -19,6 +19,10 @@ public class Main {
                 valido = true;
             }catch (TemperaturaInferiorException ex){
                 System.out.println(ex.getMessage());
+            } catch (RuntimeException e) {
+                System.out.println("Error en tiempo de ejecución.");
+            }catch (Exception e){
+                System.out.println("Error en el programa.");
             }
 
 

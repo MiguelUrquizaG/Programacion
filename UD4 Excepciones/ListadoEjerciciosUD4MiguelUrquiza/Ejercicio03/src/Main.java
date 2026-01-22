@@ -7,7 +7,7 @@ public class Main {
         CEcuacion2Grado cEcuacion2Grado =  new CEcuacion2Grado();
         double resultado =0;
         try{
-           resultado = cEcuacion2Grado.calcularEcuacion(10,20,4);
+           resultado = cEcuacion2Grado.calcularEcuacion(4,5,12);
         }catch (EcuacionException e){
             System.err.println(e.getMessage());
         }

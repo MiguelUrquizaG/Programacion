@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9862c88-0d29-4047-9a62-ce0d7f6d2508" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/ejercicio01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/fichero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio01/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/ejercicio02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/fichero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejerciciosListado1MiguelUrquiza/ejercicio02/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="397oIUJSW1f1YqFYUZOmCU1JEMs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/Programacion/UD5 Ficheros/Nueva carpeta/ejercicio01",
+    "onboarding.tips.debug.path": "C:/Users/user/Documents/Programacion/UD5 Ficheros/ejerciciosListado1MiguelUrquiza/ejercicio01/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9862c88-0d29-4047-9a62-ce0d7f6d2508" name="Changes" comment="" />
+      <created>1770056389894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770056389894</updated>
+    </task>
+    <servers />
+  </component>
+</project>

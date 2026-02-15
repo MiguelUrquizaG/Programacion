@@ -31,7 +31,6 @@ public class Main {
                 writer.println(numero+"\n");
             }
 
-
         }catch (FileNotFoundException e){
             System.out.println("No se ha encontrado el fichero.");
         }finally {

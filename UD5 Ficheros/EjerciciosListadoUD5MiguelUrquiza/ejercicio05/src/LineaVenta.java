@@ -26,12 +26,17 @@ public class LineaVenta {
         return producto.calcularPVP(porcentajeIva,descuento,impuesto,topeCaducidad)*cantidadProductos;
     }
 
-    public void mostrarLinea(double porcentajeIva,double descuento,double impuesto,int topeCaducidad) {
+    public String  mostrarLinea(double porcentajeIva,double descuento,double impuesto,int topeCaducidad) {
 
 //		System.out.println(producto.getNombre()+"\t\t"+producto.calcularPVP(porcentajeIva, descuento,impuesto, topeCaducidad)+
 //				"\t"+cantidadProductos+"\t"+calcularSubtotal(porcentajeIva,descuento,impuesto,topeCaducidad));
-        System.out.printf("%s\t\t%.2f€\t%d\t\t%.2f€\n",producto.getNombre(),producto.calcularPVP(porcentajeIva, descuento,impuesto, topeCaducidad),cantidadProductos,
+        /*System.out.printf("%s\t\t%.2f€\t%d\t\t%.2f€\n",producto.getNombre(),producto.calcularPVP(porcentajeIva, descuento,impuesto, topeCaducidad),cantidadProductos,
+                calcularSubtotal(porcentajeIva,descuento,impuesto,topeCaducidad));*/
+
+        String texto = String.format("%s\t\t%.2f€\t%d\t\t%.2f€\n",producto.getNombre(),producto.calcularPVP(porcentajeIva, descuento,impuesto, topeCaducidad),cantidadProductos,
                 calcularSubtotal(porcentajeIva,descuento,impuesto,topeCaducidad));
+
+        return texto;
     }
 
     public double calcularPerdido(double porcentajeIva,double descuento,double impuesto,int topeCaducidad) {
